@@ -1,0 +1,30 @@
+step-1 
+create a virtual environment
+
+step-2 
+create a folder (data) ----> store all datasets.
+
+step-3
+create a folder (API)---> for storing our trained model in pkl format.
+1. app.py
+2. model.pkl
+
+step-4
+create a folder (src)--->
+make this as an package using __init__.py
+create a file(train.py)----> model training and shift the trained model in api/model.pkl .
+
+step-5
+create a folder (tests)---->
+make this as an package.
+this will test our training model using pytest for unit testing(one by one test).
+
+step-6
+create a file (requirements.txt) ---> in which we will store all libraries that is needed for running this application.
+
+step-7
+create a 'Readme.md file.
+create a docs.txt file ---> for project understanding.
+
+python src/train.py
+streamlit run api/app.py
